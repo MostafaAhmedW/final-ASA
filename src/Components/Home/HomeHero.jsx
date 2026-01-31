@@ -5,7 +5,7 @@ import SectionWrapper from "../Sectionwrapper/Sectionwrapper";
 export default function HomeHero() {
   return (
     <>
-      <SectionWrapper>
+      
         <section dir="rtl" className="relative w-full h-screen">
           <img
             src="/Images/imghero.webp"
@@ -43,7 +43,7 @@ export default function HomeHero() {
             </div>
           </div>
         </section>
-      </SectionWrapper>
+     
     </>
   );
 }
