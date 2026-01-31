@@ -15,7 +15,7 @@ export default function HomeHero() {
             fetchpriority="high"
           />
 
-          <div className="absolute inset-0  flex flex-col justify-center items-center text-center px-4">
+          <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white leading-tight">
               صندوق تحيا مصر ودوره في مبادرة حياة كريمة
             </h1>
