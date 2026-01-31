@@ -1,16 +1,15 @@
 import React from "react";
-import education from "../../../../public/Images/educationHero.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 
 export default function EducationHero() {
   return (
     <>
-      
+      <SectionWrapper>
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={education}
+              src="/Images/educationHero.webp"
               alt=" محور النعليم"
               className="w-full h-full object-cover"
               loading="eager"
@@ -42,7 +41,7 @@ export default function EducationHero() {
             </div>
           </div>
         </section>
-      
+      </SectionWrapper>
     </>
   );
 }

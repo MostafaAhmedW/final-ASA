@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Infra from "../../../../public/Images/InfraHero.webp";
 import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 
 export default function InfraHero() {
   return (
     <>
-      
+      <SectionWrapper>
         <section dir="rtl" className="relative h-[45vh] w-full">
           {/* Background Image */}
           <div className="relative h-full">
             <img
-              src={Infra}
+              src="/Images/InfraHero.webp"
               alt=" محور البنية التحتية "
               className="w-full h-full object-cover"
               loading="eager"
@@ -42,7 +41,7 @@ export default function InfraHero() {
             </div>
           </div>
         </section>
-      
+      </SectionWrapper>
     </>
   );
 }

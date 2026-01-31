@@ -1,16 +1,15 @@
 import React from "react";
-import new1 from "/public/Images/neww.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 
 export default function SustainableDevelopmentHero() {
   return (
     <>
-      
+      <SectionWrapper>
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={new1}
+              src="/Images/neww.webp"
               alt=" محور التنمية المستدامة "
               className="w-full h-full object-center"
               loading="eager"
@@ -41,7 +40,7 @@ export default function SustainableDevelopmentHero() {
             </div>
           </div>
         </section>
-      
+      </SectionWrapper>
     </>
   );
 }

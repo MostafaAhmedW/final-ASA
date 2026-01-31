@@ -1,5 +1,4 @@
 import React from "react";
-import aboutHero from "../../../public/Images/about hero.webp";
 import SectionWrapper from "../Sectionwrapper/Sectionwrapper";
 import { Link } from "react-router-dom";
 
@@ -10,7 +9,7 @@ export default function AboutHero() {
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={aboutHero}
+              src="/Images/about hero.webp"
               alt="عن المؤسسة"
               className="w-full h-full object-center"
               loading="eager"

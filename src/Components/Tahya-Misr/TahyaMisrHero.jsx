@@ -1,5 +1,4 @@
 import React from "react";
-import thayaMisrHero from "../../../public/Images/ThyaMisr.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../Sectionwrapper/Sectionwrapper";
 
@@ -10,7 +9,7 @@ export default function TahyaMisrHero() {
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={thayaMisrHero}
+              src="/Images/ThyaMisr.webp"
               alt="  صندوق تحيا مصر   "
               className="w-full h-full object-center"
               loading="eager"

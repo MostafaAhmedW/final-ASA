@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logoNavbar from "/public/Images/Logo.webp";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +15,7 @@ export default function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src={logoNavbar}
+              src="/Images/Logo.webp"
               className="h-14"
               alt="شعار مبادرة حياة كريمة"
               loading="lazy"

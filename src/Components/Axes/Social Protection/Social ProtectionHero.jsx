@@ -1,16 +1,15 @@
 import React from "react";
-import socialprotectionHero from "../../../../public/Images/about hero.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 
 export default function SocialProtectionHero() {
   return (
     <>
-      
+      <SectionWrapper>
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={socialprotectionHero}
+              src="/Images/about hero.webp"
               alt="  محور الحماية الاجتماعية"
               className="w-full h-full object-center"
               loading="eager"
@@ -42,7 +41,7 @@ export default function SocialProtectionHero() {
             </div>
           </div>
         </section>
-      
+      </SectionWrapper>
     </>
   );
 }

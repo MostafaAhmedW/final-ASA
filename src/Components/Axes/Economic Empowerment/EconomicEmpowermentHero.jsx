@@ -1,16 +1,15 @@
 import React from "react";
-import economi from "../../../../public/Images/economiHero.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 
 export default function EconomicEmpowermentHero() {
   return (
     <>
-      
+      <SectionWrapper>
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={economi}
+              src="/Images/economiHero.webp"
               alt=" محور التمكين الاقتصادي "
               className="w-full h-full object-cover"
               loading="eager"
@@ -41,7 +40,7 @@ export default function EconomicEmpowermentHero() {
             </div>
           </div>
         </section>
-      
+      </SectionWrapper>
     </>
   );
 }

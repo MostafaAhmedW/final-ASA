@@ -1,16 +1,15 @@
 import React from "react";
-import axes from "../../../public/Images/axes.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../Sectionwrapper/Sectionwrapper";
 
 export default function AxesHero() {
   return (
     <>
-      
+      <SectionWrapper>
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
-              src={axes}
+              src="/Images/axes.webp"
               alt="محاور مبادرة حياة كريمة"
               className="w-full h-full object-cover "
               loading="eager"
@@ -36,7 +35,7 @@ export default function AxesHero() {
             </div>
           </div>
         </section>
-      
+      </SectionWrapper>
     </>
   );
 }

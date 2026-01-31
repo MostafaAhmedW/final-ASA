@@ -1,15 +1,14 @@
 import React from "react";
-import heroSec from "../../../public/Images/imghero.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../Sectionwrapper/Sectionwrapper";
 
 export default function HomeHero() {
   return (
     <>
-
+      <SectionWrapper>
         <section dir="rtl" className="relative w-full h-screen">
           <img
-            src={heroSec}
+            src="/Images/imghero.webp"
             alt="Hayah Karima"
             className="w-full h-full object-cover"
             loading="eager"
@@ -44,7 +43,7 @@ export default function HomeHero() {
             </div>
           </div>
         </section>
-
+      </SectionWrapper>
     </>
   );
 }
