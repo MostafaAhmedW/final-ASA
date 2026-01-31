@@ -6,7 +6,7 @@ import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 export default function InfraHero() {
   return (
     <>
-      <SectionWrapper>
+      
         <section dir="rtl" className="relative h-[45vh] w-full">
           {/* Background Image */}
           <div className="relative h-full">
@@ -42,7 +42,7 @@ export default function InfraHero() {
             </div>
           </div>
         </section>
-      </SectionWrapper>
+      
     </>
   );
 }

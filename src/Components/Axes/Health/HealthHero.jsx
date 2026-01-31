@@ -1,12 +1,12 @@
 import React from "react";
-import health from "../../../../public/Images/educationHero.webp";
+import health from "../../../../public/Images/axes.webp";
 import { Link } from "react-router-dom";
 import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 
 export default function HealthHero() {
   return (
     <>
-      <SectionWrapper>
+      
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
@@ -41,7 +41,7 @@ export default function HealthHero() {
             </div>
           </div>
         </section>
-      </SectionWrapper>
+      
     </>
   );
 }

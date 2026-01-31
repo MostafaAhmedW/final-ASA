@@ -6,7 +6,7 @@ import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 export default function EducationHero() {
   return (
     <>
-      <SectionWrapper>
+      
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
@@ -42,7 +42,7 @@ export default function EducationHero() {
             </div>
           </div>
         </section>
-      </SectionWrapper>
+      
     </>
   );
 }

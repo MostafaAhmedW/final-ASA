@@ -6,7 +6,7 @@ import SectionWrapper from "../../Sectionwrapper/Sectionwrapper";
 export default function SustainableDevelopmentHero() {
   return (
     <>
-      <SectionWrapper>
+      
         <section dir="rtl" className="relative h-[45vh] w-full">
           <div className="relative h-full">
             <img
@@ -41,7 +41,7 @@ export default function SustainableDevelopmentHero() {
             </div>
           </div>
         </section>
-      </SectionWrapper>
+      
     </>
   );
 }
