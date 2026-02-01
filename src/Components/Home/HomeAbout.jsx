@@ -9,7 +9,7 @@ export default function HomeAbout() {
       <SectionWrapper>
         <section dir="rtl" className=" py-20  ">
           <div className="container  mx-auto py-12 md:px-10  ">
-            <div className=" grid grid-cols-12 gap-10 px-1.5 ">
+            <div className=" grid grid-cols-12 gap-4 md:gap-10 px-1.5 ">
               <div className="col-span-12 md:col-span-6 order-1 md:order-2 md:text-right ">
                 <h2 className="  md:text-right text-3xl font-bold py-6 text-[#318160] mb-2 relative">
                   ما هي مبادرة حياة كريمة؟

@@ -10,6 +10,7 @@ export default function AboutIntro() {
             <div className="">
               <h2 className=" text-center md:text-right text-3xl font-bold text-[#318160] mb-10 ">
                 عن مؤسسة حياة كريمة
+                
               </h2>
 
               <div className="space-y-4 md:space-y-3 text-center md:text-right flex flex-col max-w-3xl mx-auto md:mx-0 ">

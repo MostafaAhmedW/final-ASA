@@ -12,7 +12,7 @@ export default function AxesCard() {
         <section className="bg-gray-100 py-20" dir="rtl">
           <div className="container  mx-auto md:px-10">
             <div className=" grid grid-cols-2 md:grid-cols-3 gap-8 mx-auto">
-              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35  transition duration-300 cursor-pointer ">
+              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35  transition duration-300 cursor-pointer flex flex-col ">
                 <div className="flex justify-between items-center mb-4">
                   <MdOutlineConstruction className="text-[#318160]/80 text-4xl" />
 
@@ -25,14 +25,14 @@ export default function AxesCard() {
                   البنية التحتية
                 </h3>
 
-                <p className="leading-relaxed text-sm text-gray-600 ">
+                <p className="leading-relaxed text-sm text-gray-600 pb-2.5 ">
                   تطوير شبكات المياه والصرف الصحي والطرق، بما يساهم في تحسين
                   مستوى المعيشة داخل القرى.
                 </p>
 
                 <Link
                   to="/axes/infrastructure"
-                  className="mt-6 inline-flex items-center gap-1 text-sm text-[#318160]
+                  className="mt-auto  w-fit inline-flex items-center gap-1 text-sm text-[#318160]
                    bg-[#318160]/5 px-3 py-1.5 rounded-lg
                      border border-[#318160]/40
                    hover:bg-[#318160]/10 hover:-translate-y-0.5
@@ -43,7 +43,7 @@ export default function AxesCard() {
                 </Link>
               </div>
 
-              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35  transition duration-300 cursor-pointer ">
+              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35  transition duration-300 cursor-pointer flex flex-col ">
                 <div className="flex justify-between items-center mb-4 ">
                   <FaHeart className="text-[#318160]/80 text-4xl " />
 
@@ -56,14 +56,14 @@ export default function AxesCard() {
                   الصحة
                 </h3>
 
-                <p className="leading-relaxed text-sm text-gray-600 ">
+                <p className="leading-relaxed text-sm text-gray-600 pb-2.5 ">
                   دعم المنظومة الصحية من خلال تطوير الوحدات الصحية وتوفير
                   الخدمات الطبية للمواطنين.
                 </p>
 
                 <Link
                   to="/axes/health"
-                  className="mt-6 inline-flex items-center gap-1 text-sm text-[#318160]
+                  className="mt-auto  w-fit inline-flex items-center gap-1 text-sm text-[#318160]
                    bg-[#318160]/5 px-3 py-1.5 rounded-lg
                      border border-[#318160]/40
                    hover:bg-[#318160]/10 hover:-translate-y-0.5
@@ -74,7 +74,7 @@ export default function AxesCard() {
                 </Link>
               </div>
 
-              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer ">
+              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer flex flex-col ">
                 <div className="flex justify-between items-center mb-4">
                   <FaGraduationCap className="text-[#318160]/80 text-4xl" />
 
@@ -87,14 +87,14 @@ export default function AxesCard() {
                   التعليم
                 </h3>
 
-                <p className="leading-relaxed text-sm text-gray-600 ">
+                <p className="leading-relaxed text-sm text-gray-600 pb-2.5 ">
                   تطوير المدارس وتحسين جودة العملية التعليمية ودعم الطلاب غير
                   القادرين.
                 </p>
 
                 <Link
                   to="/axes/education"
-                  className="mt-6 inline-flex items-center gap-1 text-sm text-[#318160]
+                  className="mt-auto  w-fit inline-flex items-center gap-1 text-sm text-[#318160]
                    bg-[#318160]/5 px-3 py-1.5 rounded-lg
                      border border-[#318160]/40
                    hover:bg-[#318160]/10 hover:-translate-y-0.5
@@ -105,7 +105,7 @@ export default function AxesCard() {
                 </Link>
               </div>
 
-              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer ">
+              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer flex flex-col ">
                 <div className="flex justify-between items-center mb-4">
                   <FaHandsHelping className="text-[#318160]/80 text-4xl" />
 
@@ -118,14 +118,14 @@ export default function AxesCard() {
                   الحماية الاجتماعية
                 </h3>
 
-                <p className="leading-relaxed text-sm text-gray-600 ">
+                <p className="leading-relaxed text-sm text-gray-600 pb-2.5 ">
                   دعم الأسر الأولى بالرعاية وتوفير مظلة حماية اجتماعية تضمن حياة
                   كريمة.
                 </p>
 
                 <Link
                   to="/axes/social-protection"
-                  className="mt-6 inline-flex items-center gap-1 text-sm text-[#318160]
+                  className="mt-auto  w-fit inline-flex items-center gap-1 text-sm text-[#318160]
                    bg-[#318160]/5 px-3 py-1.5 rounded-lg
                      border border-[#318160]/40
                    hover:bg-[#318160]/10 hover:-translate-y-0.5
@@ -136,7 +136,7 @@ export default function AxesCard() {
                 </Link>
               </div>
 
-              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer ">
+              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer flex flex-col ">
                 <div className="flex justify-between items-center mb-4">
                   <FaBriefcase className="text-[#318160]/80 text-4xl" />
 
@@ -149,13 +149,13 @@ export default function AxesCard() {
                   التمكين الاقتصادي
                 </h3>
 
-                <p className="leading-relaxed text-sm text-gray-600 ">
+                <p className="leading-relaxed text-sm text-gray-600 pb-2.5 ">
                   توفير فرص عمل ودعم المشروعات الصغيرة لتحقيق دخل مستدام للأسر.
                 </p>
 
                 <Link
                   to="/axes/economic-empowerment"
-                  className="mt-6 inline-flex items-center gap-1 text-sm text-[#318160]
+                  className="mt-auto  w-fit inline-flex items-center gap-1 text-sm text-[#318160]
                    bg-[#318160]/5 px-3 py-1.5 rounded-lg
                      border border-[#318160]/40
                    hover:bg-[#318160]/10 hover:-translate-y-0.5
@@ -166,7 +166,7 @@ export default function AxesCard() {
                 </Link>
               </div>
 
-              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer ">
+              <div className=" rounded-2xl p-6 border border-[#318160]/30 hover:shadow-md shadow-sm shadow-[#318160]/35 transition duration-300 cursor-pointer flex flex-col ">
                 <div className="flex justify-between items-center mb-4">
                   <MdEco className="text-[#318160]/80 text-4xl" />
 
@@ -179,14 +179,14 @@ export default function AxesCard() {
                   التنمية المستدامة
                 </h3>
 
-                <p className="leading-relaxed text-sm text-gray-600 ">
+                <p className="leading-relaxed text-sm text-gray-600 pb-2.5 ">
                   الحفاظ على الموارد وتحقيق تنمية طويلة المدى تضمن حقوق الأجيال
                   القادمة.
                 </p>
 
                 <Link
                   to="/axes/sustainable-development"
-                  className="mt-6 inline-flex items-center gap-1 text-sm text-[#318160]
+                  className="mt-auto  w-fit inline-flex items-center gap-1 text-sm text-[#318160]
                    bg-[#318160]/5 px-3 py-1.5 rounded-lg
                      border border-[#318160]/40
                    hover:bg-[#318160]/10 hover:-translate-y-0.5
